@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+    import java.util.Arrays;
+    import java.util.List;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            Integer[] arr = {scanner.nextInt(), scanner.nextInt(), scanner.nextInt()};
+            // write your code here
+
+            System.out.println(/* Print the first element here */);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19375#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 17 May 2022 21:39:26 UTC
+record: -1

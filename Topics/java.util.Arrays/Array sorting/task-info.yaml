@@ -1,0 +1,24 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+    import java.util.Arrays;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int[] arr = {scanner.nextInt(), scanner.nextInt(), scanner.nextInt()};
+            // write your code here
+
+            System.out.println(/* Print the sorted array here */);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19373#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 17 May 2022 21:25:38 UTC
+record: -1
